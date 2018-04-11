@@ -152,7 +152,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.0) !important;
   position: absolute;
   bottom: 0;
   top: 0;
@@ -569,6 +569,29 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 14px;
 }
 
+#about .social-links {
+  padding-bottom: 20px;
+}
+
+#about .social-links a {
+  font-size: 16px;
+  display: inline-block;
+  background: #333;
+  color: #fff;
+  line-height: 1;
+  padding: 6px 0;
+  border-radius: 50%;
+  text-align: center;
+  width: 28px;
+  height: 28px;
+  transition: 0.3s;
+}
+
+#about .social-links a:hover {
+  background: #a50606;
+  color: #fff;
+}
+
 /* Facts Section
 --------------------------------*/
 #facts {
@@ -659,7 +682,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/Team-On-Brick.jpg) fixed center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(../img/Team-On-Brick.jpg) fixed center center;
   background-size: cover;
   padding: 80px 0;
 }
